@@ -133,3 +133,4 @@ dmypy.json
 
 # Jetbrains configs
 *.idea
+/data/skraning/csv/
