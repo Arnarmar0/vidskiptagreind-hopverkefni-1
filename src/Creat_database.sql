@@ -7,7 +7,7 @@ CREATE TABLE test (id INT NOT NULL PRIMARY KEY, name VARCHAR(20) NOT NULL);
 INSERT INTO test VALUES (1, 'bob');
 
 /* Now we can use the table */
-
+CREATE TABLE brautskraning (id serial PRIMARY KEY, Year integer, Braut varchar, tegund_nams varchar, kk integer, kv integer, samtals integer);
 SELECT * FROM brautskraning;
 DROP TABLE brautskraning;
 
