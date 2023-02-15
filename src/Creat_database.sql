@@ -8,7 +8,7 @@ INSERT INTO test VALUES (1, 'bob');
 
 /* Now we can use the table */
 
-SELECT * FROM test;
+SELECT * FROM brautskraning;
 DROP TABLE brautskraning;
 
 /* To delete the table */

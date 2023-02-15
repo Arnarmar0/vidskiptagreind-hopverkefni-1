@@ -1,135 +1,78 @@
-﻿,Deild,tegund_náms,Karl,Kona,Alls
-1,Félags- og mannvísindadeild ,,37.0,0.0,0.0
-2,,Grunnnám,22.0,77.0,99.0
-3,,Viðbótarnám,2.0,34.0,36.0
-4,,Meistarapróf,12.0,61.0,73.0
-5,,Doktorspróf,1.0,0.0,1.0
-6,Félagsráðgjafardeild ,,0.0,46.0,46.0
-7,,Grunnnám,0.0,35.0,35.0
-8,,Viðbótarnám,0.0,2.0,2.0
-9,,Meistarapróf,0.0,9.0,9.0
-10,,Doktorspróf,0.0,0.0,0.0
-11,Hagfræðideild                                                                                                                                         ,,22.0,21.0,43.0
-12,,Grunnnám,17.0,13.0,30.0
-13,,Viðbótarnám,0.0,0.0,0.0
-14,,Meistarapróf,5.0,8.0,13.0
-15,,Doktorspróf,0.0,0.0,0.0
-16,Lagadeild                                                                                                                                             ,,69.0,71.0,140.0
-17,,Grunnnám,45.0,48.0,93.0
-18,,Viðbótarnám,10.0,14.0,24.0
-19,,Meistarapróf,14.0,9.0,23.0
-20,,Doktorspróf,0.0,0.0,0.0
-21,Stjórnmálafræðideild                                                                                                                                  ,,28.0,45.0,73.0
-22,,Grunnnám,19.0,16.0,35.0
-23,,Viðbótarnám,4.0,10.0,14.0
-24,,Meistarapróf,5.0,19.0,24.0
-25,,Doktorspróf,0.0,0.0,0.0
-26,Viðskiptafræðideild                                                                                                                                   ,,78.0,123.0,201.0
-27,,Grunnnám,35.0,55.0,90.0
-28,,Viðbótarnám,0.0,0.0,0.0
-29,,Meistarapróf,43.0,68.0,111.0
-30,,Doktorspróf,0.0,0.0,0.0
-32,Hjúkrunarfræðideild                                                                                                                                   ,,2.0,121.0,123.0
-33,,Grunnnám,1.0,57.0,58.0
-34,,Viðbótarnám,0.0,42.0,42.0
-35,,Meistarapróf,1.0,22.0,23.0
-36,,Doktorspróf,0.0,0.0,0.0
-37,Lyfjafræðideild                                                                                                                                       ,,13.0,29.0,42.0
-38,,Grunnnám,9.0,18.0,27.0
-39,,Viðbótarnám,0.0,0.0,0.0
-40,,Meistarapróf,4.0,11.0,15.0
-41,,Doktorspróf,0.0,0.0,0.0
-42,Læknadeild                                                                                                                                            ,,20.0,46.0,66.0
-43,,Grunnnám,2.0,11.0,13.0
-44,,Viðbótarnám,15.0,21.0,36.0
-45,,Meistarapróf,2.0,10.0,12.0
-46,,Doktorspróf,1.0,4.0,5.0
-47,Lýðheilsuvísindi,,0.0,0.0,0.0
-48,,Grunnnám,0.0,0.0,0.0
-49,,Viðbótarnám,0.0,0.0,0.0
-50,,Meistarapróf,0.0,0.0,0.0
-51,,Doktorspróf,0.0,0.0,0.0
-52,Matvæla- og næringarfræðideild                                                                                                                        ,,4.0,8.0,12.0
-53,,Grunnnám,1.0,2.0,3.0
-54,,Viðbótarnám,0.0,0.0,0.0
-55,,Meistarapróf,3.0,6.0,9.0
-56,,Doktorspróf,0.0,0.0,0.0
-57,Sálfræðideild                                                                                                                                         ,,21.0,71.0,92.0
-58,,Grunnnám,21.0,60.0,81.0
-59,,Viðbótarnám,0.0,0.0,0.0
-60,,Meistarapróf,0.0,11.0,11.0
-62,Tannlæknadeild                                                                                                                                        ,,4.0,4.0,8.0
-63,,Grunnnám,4.0,4.0,8.0
-64,,Viðbótarnám,0.0,0.0,0.0
-65,,Meistarapróf,0.0,0.0,0.0
-66,,Doktorspróf,0.0,0.0,0.0
-68,"Deild erlendra tungumála, bókmennta og málvísinda                                                                                                     ",,17.0,55.0,72.0
-69,,Grunnnám,17.0,50.0,67.0
-70,,Viðbótarnám,0.0,0.0,0.0
-71,,Meistarapróf,0.0,5.0,5.0
-72,,Doktorspróf,0.0,0.0,0.0
-73,Guðfræði- og trúarbragðafræðideild                                                                                                                    ,,7.0,31.0,38.0
-74,,Grunnnám,3.0,21.0,24.0
-75,,Viðbótarnám,2.0,7.0,9.0
-76,,Meistarapróf,2.0,3.0,5.0
-77,,Doktorspróf,0.0,0.0,0.0
-78,Íslensku- og menningardeild                                                                                                                                    ,,30.0,85.0,115.0
-79,,Grunnnám,21.0,73.0,94.0
-80,,Viðbótarnám,0.0,0.0,0.0
-81,,Meistarapróf,9.0,12.0,21.0
-82,,Doktorspróf,0.0,0.0,0.0
-83,Sagnfræði- og heimspekideild                                                                                                                          ,,37.0,31.0,48.0
-84,,Grunnnám,30.0,25.0,35.0
-85,,Viðbótarnám,0.0,0.0,0.0
-86,,Meistarapróf,7.0,5.0,12.0
-87,,Doktorspróf,0.0,1.0,1.0
-89,"Íþrótta-, tómstunda- og þroskaþjálfadeild",,0.0,0.0,0.0
-90,,Grunnnám,0.0,0.0,0.0
-91,,Viðbótarnám,0.0,0.0,0.0
-92,,Meistarapróf,0.0,0.0,0.0
-93,,Doktorspróf,0.0,0.0,0.0
-94,Kennaradeild,,19.0,44.0,63.0
-95,,Grunnnám,0.0,0.0,0.0
-96,,Viðbótarnám,19.0,41.0,60.0
-97,,Meistarapróf,0.0,3.0,3.0
-98,,Doktorspróf,0.0,0.0,0.0
-99,Uppeldis- og menntunarfræðideild                                                                                                                      ,,2.0,40.0,42.0
-100,,Grunnnám,1.0,25.0,26.0
-101,,Viðbótarnám,0.0,5.0,5.0
-102,,Meistarapróf,1.0,10.0,11.0
-103,,Doktorspróf,0.0,0.0,0.0
-105,"Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild                                                                                               ",,66.0,63.0,129.0
-106,,Grunnnám,48.0,32.0,80.0
-107,,Viðbótarnám,0.0,0.0,0.0
-108,,Meistarapróf,18.0,31.0,49.0
-109,,Doktorspróf,0.0,0.0,0.0
-110,Jarðvísindadeild                                                                                                                                      ,,14.0,10.0,24.0
-111,,Grunnnám,9.0,6.0,15.0
-112,,Viðbótarnám,0.0,0.0,0.0
-113,,Meistarapróf,3.0,4.0,7.0
-114,,Doktorspróf,2.0,0.0,2.0
-115,Líf- og umhverfisvísindadeild                                                                                                                         ,,23.0,66.0,89.0
-116,,Grunnnám,16.0,58.0,74.0
-117,,Viðbótarnám,0.0,0.0,0.0
-118,,Meistarapróf,7.0,8.0,15.0
-119,,Doktorspróf,0.0,0.0,0.0
-120,Umhverfis- og auðlindafræði,,2.0,0.0,2.0
-121,,Grunnnám,0.0,0.0,0.0
-122,,Viðbótarnám,0.0,0.0,0.0
-123,,Meistarapróf,2.0,0.0,2.0
-124,,Doktorspróf,0.0,0.0,0.0
-125,Rafmagns- og tölvuverkfræðideild                                                                                                                      ,,33.0,0.0,33.0
-126,,Grunnnám,32.0,0.0,32.0
-127,,Viðbótarnám,0.0,0.0,0.0
-128,,Meistarapróf,1.0,0.0,1.0
-129,,Doktorspróf,0.0,0.0,0.0
-130,Raunvísindadeild                                                                                                                                      ,,47.0,12.0,59.0
-131,,Grunnnám,41.0,10.0,51.0
-132,,Viðbótarnám,1.0,1.0,2.0
-133,,Meistarapróf,5.0,1.0,6.0
-134,,Doktorspróf,0.0,0.0,0.0
-135,Umhverfis- og byggingaverkfræðideild                                                                                                                  ,,15.0,11.0,26.0
-136,,Grunnnám,9.0,9.0,18.0
-137,,Viðbótarnám,0.0,0.0,0.0
-138,,Meistarapróf,6.0,2.0,8.0
-139,,Doktorspróf,0.0,0.0,0.0
+﻿,Unnamed: 0,Deild,tegund_nams,"Námsleið,heiti",Karl,Kona,Alls
+1,,Félags- og mannvísindadeild ,,,25.0,143.0,168.0
+2,,,Grunnnám,,17.0,65.0,82.0
+3,,,Viðbótarnám,,1.0,51.0,52.0
+4,,,Meistarapróf,,7.0,27.0,34.0
+6,,Félagsráðgjafardeild,,,4.0,81.0,85.0
+7,,,Grunnnám,,2.0,64.0,66.0
+8,,,Viðbótarnám,,2.0,9.0,11.0
+11,,Hagfræðideild,,,33.0,19.0,52.0
+12,,,Grunnnám,,31.0,15.0,46.0
+14,,,Meistarapróf,,2.0,4.0,6.0
+16,,Lagadeild,,,66.0,72.0,138.0
+17,,,Grunnnám,,42.0,42.0,84.0
+19,,,Meistarapróf,,24.0,30.0,54.0
+21,,Stjórnmálafræðideild,,,43.0,78.0,121.0
+22,,,Grunnnám,,16.0,21.0,37.0
+23,,,Viðbótarnám,,7.0,30.0,37.0
+24,,,Meistarapróf,,19.0,27.0,46.0
+26,,Viðskiptafræðideild,,,83.0,97.0,180.0
+27,,,Grunnnám,,35.0,30.0,65.0
+29,,,Meistarapróf,,48.0,67.0,115.0
+32,,Hjúkrunarfræðideild,,,1.0,108.0,109.0
+34,,,Viðbótarnám,,1.0,33.0,34.0
+37,,Lyfjafræðideild,,,15.0,36.0,51.0
+38,,,Grunnnám,,8.0,22.0,30.0
+40,,,Meistarapróf,,7.0,14.0,21.0
+42,,Læknadeild,,,35.0,56.0,91.0
+43,,,Grunnnám,,5.0,15.0,20.0
+45,,,Meistarapróf,,28.0,36.0,64.0
+46,,,Doktorspróf,,2.0,5.0,7.0
+47,,Lýðheilsuvísindi,,,1.0,0.0,1.0
+52,,Matvæla- og næringarfræðideild,,,0.0,0.0,0.0
+57,,Sálfræðideild,,,19.0,83.0,102.0
+58,,,Grunnnám,,16.0,69.0,85.0
+60,,,Meistarapróf,,3.0,14.0,17.0
+62,,Tannlæknadeild,,,2.0,4.0,6.0
+63,,,Grunnnám,,2.0,4.0,6.0
+68,,"Deild erlendra tungumála, bókmennta og málvísinda",,,18.0,55.0,73.0
+69,,,Grunnnám,,17.0,47.0,64.0
+71,,,Meistarapróf,,1.0,8.0,9.0
+73,,Guðfræði- og trúarbragðafræðideild,,,9.0,20.0,29.0
+74,,,Grunnnám,,3.0,10.0,13.0
+75,,,Viðbótarnám,,5.0,10.0,15.0
+78,,Íslensku- og menningardeild,,,28.0,77.0,105.0
+79,,,Grunnnám,,21.0,64.0,85.0
+80,,,Viðbótarnám,,1.0,2.0,3.0
+81,,,Meistarapróf,,6.0,11.0,17.0
+83,,Sagnfræði- og heimspekideild,,,29.0,42.0,60.0
+84,,,Grunnnám,,24.0,22.0,35.0
+86,,,Meistarapróf,,5.0,20.0,25.0
+89,,"Íþrótta-, tómstunda- og þroskaþjálfadeild",,,1.0,12.0,13.0
+90,,,Grunnnám,,1.0,12.0,13.0
+94,,Kennaradeild,,,12.0,60.0,72.0
+95,,,Grunnnám,,3.0,14.0,17.0
+96,,,Viðbótarnám,,8.0,43.0,51.0
+97,,,Meistarapróf,,1.0,3.0,4.0
+99,,Uppeldis- og menntunarfræðideild,,,3.0,38.0,41.0
+100,,,Grunnnám,,2.0,20.0,22.0
+102,,,Meistarapróf,,1.0,10.0,11.0
+105,,"Iðnaðarverkfræði-, vélaverkfræði- og tölvunarfræðideild",,,81.0,38.0,119.0
+106,,,Grunnnám,,50.0,19.0,69.0
+108,,,Meistarapróf,,28.0,19.0,47.0
+110,,Jarðvísindadeild,,,10.0,7.0,17.0
+111,,,Grunnnám,,9.0,3.0,12.0
+113,,,Meistarapróf,,1.0,4.0,5.0
+115,,Líf- og umhverfisvísindadeild,,,24.0,76.0,100.0
+116,,,Grunnnám,,18.0,64.0,82.0
+118,,,Meistarapróf,,3.0,12.0,15.0
+120,,Umhverfis- og auðlindafræði,,,2.0,3.0,5.0
+123,,,Meistarapróf,,2.0,3.0,5.0
+125,,Rafmagns- og tölvuverkfræðideild,,,15.0,3.0,18.0
+126,,,Grunnnám,,11.0,3.0,14.0
+130,,Raunvísindadeild,,,35.0,20.0,55.0
+131,,,Grunnnám,,28.0,17.0,45.0
+133,,,Meistarapróf,,6.0,3.0,9.0
+135,,Umhverfis- og byggingaverkfræðideild,,,15.0,20.0,35.0
+136,,,Grunnnám,,13.0,16.0,29.0
+138,,,Meistarapróf,,1.0,4.0,5.0

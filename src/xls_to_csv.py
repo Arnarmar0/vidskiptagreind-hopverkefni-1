@@ -20,9 +20,9 @@ years = ['2006-01', '2006-02',
 
 for year in years:
     try:
-        skran = pd.ExcelFile("data/skraning/{}.xls".format(year))
+        skran = pd.read_excel("data/skraning/{}.xls".format(year), encoding='utf-16')
     except FileNotFoundError:
-        skran = pd.ExcelFile("data/skraning/{}.xlsx".format(year))
+        skran = pd.read_excel("data/skraning/{}.xlsx".format(year), encoding='utf-16')
 
     # Create a folder under data/skraning/csv with the same name as the excel file
     os.mkdir("data/skraning/csv/{}".format(year))

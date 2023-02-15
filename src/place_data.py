@@ -6,7 +6,8 @@ import psycopg2
 import psycopg2.extras
 
 # Connect to the database
-conn = psycopg2.connect("dbname=Vidskiptagreind_hop1 user=postgres password=Hinrik74 port=5432")
+conn = psycopg2.connect("dbname=Vidskiptagreind_hop1 user=postgres password=1234 port=5432")
+print(conn)
 
 # Create a cursor object
 cur = conn.cursor()
@@ -19,26 +20,50 @@ cur.execute("CREATE TABLE brautskraning (id serial PRIMARY KEY, Year integer, Br
 
 braut = pd.ExcelFile("data/brautskraning/all.xlsx")
 
-temp_list = braut.sheet_names
+sheet_list = braut.sheet_names
 
-df = braut.parse(temp_list[2])
+for sheet in sheet_list[1::]:
+    df = braut.parse(sheet)
+    df = df.dropna(thresh=4)
+    df["Karl"].fillna(0, inplace=True)
+    df["Kona"].fillna(0, inplace=True)
+    df["Alls"].fillna(0, inplace=True)
 
+    # print(df)
+    df = df.drop(columns=[df.columns[0]])
+    # print(df)
+    df = df.rename(columns={"Unnamed: 2": "tegund_nams"})
 
-df = df.dropna(thresh=4)
-# print(df)
-df = df.drop(columns=[df.columns[0],df.columns[3], df.columns[7], df.columns[8], df.columns[9], df.columns[10]])
-# print(df)
-df = df.rename(columns={"Unnamed: 2": "tegund_náms"})
+    # df  = df.to_csv("test2.csv", encoding="utf-8-sig")
+    df_isnan = df.isnull()
+    # print(df_isnan)
+    # Insert some data
+    temp_year = []
+    temp_deild = []
+    temp_tegund_nams = []
+    temp_kk = []
+    temp_kv = []
+    temp_total = []
+    counter = 0
 
-# df  = df.to_csv("test2.csv", encoding="utf-8-sig")
+    for i in df["Karl"].keys():
+        if df_isnan['Deild'][i] == False:
+            temp_deild.append(df["Deild"][i])
+            temp_tegund_nams.append(None)
+            temp_kk.append(df["Karl"][i])
+            temp_kv.append(df["Kona"][i])
+            temp_total.append(df["Alls"][i])
+        else:
+            temp_deild.append(temp_deild[-1])
+            temp_tegund_nams.append(df["tegund_nams"][i])
+            temp_kk.append(df["Karl"][i])
+            temp_kv.append(df["Kona"][i])
+            temp_total.append(df["Alls"][i])
 
-# Insert some data
-counter = 0
-for i in df["Deild"].keys():
-    # print(df["Deild"][i])
-    if df['Deild'][i] != "nan":
-        print(counter)
-        counter += 1
+    for i in range(len(temp_deild)):
+        print("made")
+        cur.execute("INSERT INTO brautskraning (Year, Braut, tegund_nams, kk, kv, samtals) VALUES (%s, %s, %s, %s, %s, %s)", (sheet, temp_deild[i], temp_tegund_nams[i], temp_kk[i], temp_kv[i], temp_total[i]))
+
 # Insert one row
 # cur.execute("INSERT INTO test (num, data) VALUES (%s, %s)", (100, "abc'def"))
 
