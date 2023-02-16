@@ -9,10 +9,10 @@ import psycopg2.extras
 def connect_to_postgres():
     # Connect to the database
     connection  = psycopg2.connect(user="postgres",
-                            password="1234",
+                            password="101097",
                             host="localhost",
-                            port="5432",
-                            database="Vidskiptagreind_hop1")
+                            port="5433",
+                            database="vidskiptagreind_hop1")
 
 
     # # Create a dictionary cursor
@@ -95,9 +95,9 @@ def add_to_table(table, cursor, isbraut):
 
     df_csv = pd.DataFrame(data=df_csv)
     if isbraut:
-        df_csv.to_csv("braut_skra.csv", encoding="utf8")
+        df_csv.to_csv("braut_skra.csv", encoding="utf-8-sig")
     else:
-        df_csv.to_csv("skraning_skra.csv", encoding="utf8")
+        df_csv.to_csv("skraning_skra.csv", encoding="utf-8-sig")
     print("here")
     return cursor
 

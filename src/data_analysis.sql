@@ -1,5 +1,3 @@
-/* Skiluðu allar færslur sér yfir í SQL/Excel töfluna? */
-
 /* Veljum allar raðirnar í brautskráningartöflunni */
 SELECT * FROM brautskraning;
 
@@ -12,10 +10,11 @@ SELECT COUNT(*) FROM brautskraning;
 /* Teljum allar raðirnar í skráningartöflunni */
 SELECT COUNT(*) FROM skraning;
 
-/* Summa allra brautskráðra nemenda úr HÍ */
-SELECT SUM(samtals) FROM brautskraning WHERE tegund_nams IS NULL;
+/* Summa allra skráðra nemenda úr HÍ */
 SELECT SUM(samtals) FROM skraning WHERE tegund_nams IS NULL;
 
+/* Summa allra brautskráðra nemenda úr HÍ */
+SELECT SUM(samtals) FROM brautskraning WHERE tegund_nams IS NULL;
 
 /* Summa allra skráðra nemenda í HÍ eftir árum */
 SELECT Year, SUM(samtals) as skradir
@@ -87,4 +86,3 @@ LEFT JOIN
    GROUP BY Year) b
 ON s.Year = b.Year
 ORDER BY s.Year;
-
