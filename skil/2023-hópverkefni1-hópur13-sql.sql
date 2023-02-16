@@ -1,3 +1,7 @@
+/* Búum til töflur fyrir brautskráningu og skráningu */
+CREATE TABLE brautskraning (id serial PRIMARY KEY, Year integer, Braut varchar, tegund_nams varchar, kk integer, kv integer, samtals integer);
+CREATE TABLE skraning (id serial PRIMARY KEY, Year integer, Braut varchar, tegund_nams varchar, kk integer, kv integer, samtals integer);
+
 /* Veljum allar raðirnar í brautskráningartöflunni */
 SELECT * FROM brautskraning;
 
