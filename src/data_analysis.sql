@@ -12,7 +12,7 @@ SELECT SUM(samtals) FROM skraning WHERE tegund_nams IS NULL;
 
 
 /* Summa allra brautskráðra nemenda eftir deildum */
-SELECT braut, SUM(samtals) FROM brautskraning GROUP BY braut;
+SELECT braut, SUM(samtals) FROM brautskraning WHERE tegund_nams IS NULL GROUP BY braut;
 
 /* Summa allra brautskráðra nemenda eftir kynjum */
 SELECT SUM(kk) AS kk , SUM(kv) AS kvk FROM brautskraning WHERE tegund_nams is NULL;
