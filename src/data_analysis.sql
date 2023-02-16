@@ -8,6 +8,8 @@ SELECT COUNT(*) FROM brautskraning;
 
 /* Summa allra brautskráðra nemenda úr HÍ */
 SELECT SUM(samtals) FROM brautskraning WHERE tegund_nams IS NULL;
+SELECT SUM(samtals) FROM skraning WHERE tegund_nams IS NULL;
+
 
 /* Summa allra brautskráðra nemenda eftir deildum */
 SELECT braut, SUM(samtals) FROM brautskraning WHERE tegund_nams IS NULL GROUP BY braut;

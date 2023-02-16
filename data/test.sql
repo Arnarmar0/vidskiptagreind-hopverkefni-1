@@ -7,3 +7,4 @@
 -- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 select * from brautskraning
+
